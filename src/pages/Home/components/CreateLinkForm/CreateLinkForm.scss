@@ -1,0 +1,22 @@
+@use '../../../../styles/abstracts/mixins' as *;
+
+.create-link-form{
+    .card{
+        // width: 700px;
+        border-radius: 16px;
+        box-shadow: 0 1px 128px 0 rgba(0,0,0,.2);
+
+        @include xs{
+            width: 300px;
+        }
+        @include sm{
+            width: 400px;
+        }
+        @include md{
+            width: 500px;
+        }
+        @include lg{
+            width: 700px;
+        }
+    }
+}

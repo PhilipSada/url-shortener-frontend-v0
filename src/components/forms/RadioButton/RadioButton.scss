@@ -1,0 +1,46 @@
+.radio-button{
+    .form-check-input:checked {
+        background-color: var(--button-background-primary-color);
+        border-color: var(--button-border-primary-color);
+      }
+      .radio-btn-with-icon {
+        label {
+          display: flex;
+          align-items:center;
+          justify-content: center;
+          flex-direction: column;
+          padding: 30px;
+          width: 100%;
+          /* min-width: 300px;
+          max-width: 300px; */
+          min-height: 200px;
+          text-align: center;
+          border: 2px solid #edeae9;
+          border-radius: 9px;
+          cursor: pointer;
+          div:last-child{
+            font-size: 16px;
+            margin-top: 10px;
+          }
+        }
+        input[type="radio"]{
+          display: none;
+        }
+        input[type="radio"]:checked + label {
+          background-color: #f5f8fe;
+          border: 2px solid var(--button-border-primary-color);
+    
+          .icon{
+            fill: var(--icon-primary-color);
+          }
+        }
+        .icon {
+          width: 40px;
+          height: 40px;
+          fill: #6a757d;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+}

@@ -1,0 +1,34 @@
+@use '../../styles/abstracts/placeholders';
+
+.button{
+    &--primary{
+       @extend %btn-primary;
+    }
+    &--secondary{
+       @extend %btn-secondary;
+    }
+    &--tertiary{
+       @extend %btn-tertiary;
+    }
+    &--auth{
+       @extend %btn-auth;
+    }
+    &--transparent{
+       @extend %btn-transparent;
+    }
+    &--lg{
+        @extend %btn-lg;
+    }
+    &--md{
+        @extend %btn-md;
+    }
+    &--sm{
+        @extend %btn-sm;
+    }
+    &--full-width{
+        @extend %btn-full-width;
+    }
+    &--disabled{
+        @extend %btn-disabled;
+    }
+}

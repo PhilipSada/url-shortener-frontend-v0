@@ -1,0 +1,20 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1684 1190" width="250" height="150">
+	<title>Fixonio-ai</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 58px;fill: #2c2e35;font-weight: 700;font-family: "Poppins-Bold", "Poppins" } 
+		.s1 { fill: #006ad1 } 
+	</style>
+	<g id="Layer 1">
+		<text id="Fixonio
+" style="transform: matrix(2,0,0,2,506.338,484.828)" >
+			<tspan x="0" y="42.9" class="t0">Fixonio
+</tspan>
+		</text>
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s1" d="m452.9 488.6c3.5-4 9.5-4.5 13.5-1l24.6 21.1c4 3.4 4.5 9.5 1 13.5-3.4 4-9.4 4.4-13.4 1l-24.6-21.1c-4-3.4-4.5-9.5-1.1-13.5z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m436 508.3c3.5-4 9.5-4.5 13.5-1l24.6 21.1c4 3.4 4.5 9.5 1.1 13.5-3.5 4-9.5 4.4-13.5 1l-24.6-21.1c-4-3.5-4.5-9.5-1.1-13.5z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m474.4 528.6c3.8 3.3 4.2 9 0.9 12.7l-21.8 25.4c-3.2 3.8-8.9 4.3-12.7 1-3.8-3.2-4.2-8.9-1-12.7l21.8-25.4c3.3-3.8 9-4.2 12.8-1z"/>
+		</g>
+	</g>
+</svg>

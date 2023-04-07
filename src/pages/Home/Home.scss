@@ -1,0 +1,70 @@
+@use '../../styles/abstracts/mixins' as *;
+.home {
+
+    &__hero-container {
+        display: block;
+        padding: 128px 16px 0;
+        animation: fadeInAnimation ease 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    &__hero-text {
+        display: flex;
+        max-width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+
+        h2 {
+            // font-size: 64px;
+            // line-height: 64px;
+            font-weight: 700;
+            color:#333333;
+
+            // span{
+            //     background-color: #7371ee64;
+            // }
+
+            @include xs{
+                font-size: 40px;
+                line-height: 40px;
+            }
+            @include sm{
+                font-size: 50px;
+                line-height: 50px;
+            }
+            @include md{
+                font-size: 64px;
+                line-height: 64px;
+            }
+        }
+
+        p{
+            font-size: 18px;
+            max-width: 400px;
+            line-height: 24px;
+            color:#333333;
+        }
+    }
+
+    &__hero-form {
+        display: flex;
+        // max-width: 640px;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+         }
+     }
+}

@@ -1,0 +1,19 @@
+.validation-error{
+    &__msg{
+        display:flex;
+        align-items:center;
+        line-height:12px;
+        
+        .icon{
+            color:#e04f44;
+            line-height:12px; 
+        }
+
+        span:last-child{
+            font-size:12px;
+            font-weight:500;
+            color:#e04f44;
+            text-align:center;
+        }
+    }
+}
