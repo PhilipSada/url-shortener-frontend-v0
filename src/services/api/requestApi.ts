@@ -1,5 +1,5 @@
 import axios from 'axios';
-export const createShortUrlApi = 'http://linkrplus.local/api/create';
+export const createShortUrlApi = 'https://linkrplus.up.railway.app/api/create';
 
 
 export const getHeadersConfig = ()=>{
