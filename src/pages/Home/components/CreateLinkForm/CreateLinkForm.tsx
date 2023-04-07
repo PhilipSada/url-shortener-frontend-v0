@@ -12,8 +12,6 @@ import Tooltip from "react-bootstrap/Tooltip";
 import './CreateLinkForm.scss';
 
 
-//TODO: Find out rules behind passing classNames props using BEM css naming convention
-
 const CreateLinkForm: React.FC = () => {
     const [formState, setFormState] = useState({
         isSubmitting: false,
@@ -21,7 +19,7 @@ const CreateLinkForm: React.FC = () => {
         preferredAlias: "",
         generatedURL: "",
         generatedKey: "",
-        domain: "https://linkrplus.up.railway.app/",
+        domain: "linkrplus.up.railway.app/",
         errors: Errors
     });
 
@@ -83,7 +81,7 @@ const CreateLinkForm: React.FC = () => {
                                     <Label name="Your Shortened URL" />
                                     <div className="row">
                                         <div className="col-md-6">
-                                            <Input type="text" className="form-control form-control-lg" placeholder="https://linkrplus.up.railway.app/" value={formState.domain} onChange={(e) => handleChange(e, 'domain')} disabled />
+                                            <Input type="text" className="form-control form-control-lg" placeholder="linkrplus.up.railway.app/" value={formState.domain} onChange={(e) => handleChange(e, 'domain')} disabled />
 
                                         </div>
                                         <div className="col-md-6"> <Input type="text" className="form-control form-control-lg mt-sm-3 mt-md-0" placeholder="e.g 4fwias (Optional)" value={formState.preferredAlias} onChange={(e) => handleChange(e, 'preferredAlias')} /></div>
